@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   registrations: "public/registrations",
   sessions: 'public/sessions'
 }
-  get 'homes/top'
+  root to: "homes#top"
 end
