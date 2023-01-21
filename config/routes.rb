@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   sessions: 'public/sessions'
 }
   root to: "homes#top"
+  
 end
